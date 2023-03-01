@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: github-eks-deployment
-          image: 454042841093.dkr.ecr.ap-south-1.amazonaws.com/github-eks-deployment:1.1
+          image: 454042841093.dkr.ecr.ap-south-1.amazonaws.com/github-eks-deployment:1.2
           imagePullPolicy: Always
           ports:
             - containerPort: 8082
