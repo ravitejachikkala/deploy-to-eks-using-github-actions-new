@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: primuslearning
+  name: github-eks-deployment
 spec:
   selector:
-    app: primuslearning
+    app: github-eks-deployment
   ports:
     - protocol: TCP
       port: 80
-      targetPort: 8080
+      targetPort: 8082
   type: LoadBalancer
